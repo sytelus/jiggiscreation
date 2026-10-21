@@ -1,0 +1,13 @@
+{
+  "name": "jiggiscreation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Jiggis Creation — modern Indian ethnic wear for every generation.",
+  "scripts": {
+    "dev": "node tools/serve.mjs",
+    "build": "node tools/build.mjs",
+    "preview": "node tools/serve.mjs dist"
+  },
+  "engines": {"node": ">=20"}
+}
