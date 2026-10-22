@@ -47,7 +47,9 @@ GitHub Pages DNS:
 
 Use DNS-only records while GitHub validates the domain and provisions its certificate. Enable Enforce HTTPS when GitHub makes it available. MX/TXT records are managed separately by the email provider; never replace them with website records.
 
-Email intent: receive `shital@jiggiscreation.com` at `shital@guni.ai`. Incoming forwarding does not by itself configure outbound sending as the new address.
+Cloudflare Email Routing is active for `shital@jiggiscreation.com` to verified destination `shital@guni.ai`. A test message reached the destination inbox. Incoming forwarding does not by itself configure outbound sending as the new address.
+
+HTTPS is enabled. See [launch verification](docs/verification.md) for responsive checks, delivery verification, and the one-time local Git connection instructions needed by this managed workspace.
 
 ## Updating the site
 
